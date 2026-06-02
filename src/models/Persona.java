@@ -27,6 +27,7 @@ public class Persona {
 
     public int getCriterioOrdenamiento() {
         int valorNombre = 0;
+
         for (int i = 0; i < nombre.length(); i++) {
             valorNombre += nombre.charAt(i);
         }

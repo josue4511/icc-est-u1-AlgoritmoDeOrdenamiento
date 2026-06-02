@@ -34,4 +34,9 @@ public class Resultado {
     public double getTiempoMillis() {
         return tiempoMillis;
     }
+
+    @Override
+    public String toString() {
+        return String.format("%s | %s | %d | %.2f ms", escenario, algoritmo, sample, tiempoMillis);
+    }
 }
